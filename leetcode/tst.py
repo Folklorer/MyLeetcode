@@ -1,5 +1,3 @@
-a = "1 + 2 - 3"
+a = [1,2,3,4,5]
+print(a.index(2))
 
-s = '12'
-for i in s:
-    print(int(i))

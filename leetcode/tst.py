@@ -7,13 +7,6 @@ board = [["5","3",".",".","7",".",".",".","."]
 ,[".","6",".",".",".",".","2","8","."]
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
-squborad = [[] for i in range(9)]
-for i in range(9):
-    for j in range(9):
-        if i<3:
-            squborad[i//3+j//3].append(board[i][j]) 
-        elif i<6 and i>2:
-            squborad[i//3+j//3+2].append(board[i][j])
-        else:
-            squborad[i//3+j//3+4].append(board[i][j])
-print(squborad)
+
+
+print(board[2:4])
